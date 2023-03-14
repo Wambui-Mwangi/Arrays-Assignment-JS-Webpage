@@ -325,7 +325,6 @@ border-radius: 10px;
    width: 60%;
    height: 30%;
 }
-
 a{
     color: black;
     text-decoration: none;
@@ -371,13 +370,14 @@ a{
 
 @media (max-width: 375px){
    body{
-    font-size: 20px;
+    font-size: 10px;
    } 
    .trendingpg2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    }
-   
-
+.shoe1{
+    flex-direction: column;
+    display: grid;
 }
-
+}
