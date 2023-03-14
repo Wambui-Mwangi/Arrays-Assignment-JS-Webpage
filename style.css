@@ -1,0 +1,399 @@
+body{
+    margin-left: 5%;
+    background-color: rgb(228, 228, 228);  
+}.nav1{
+    list-style: none;
+    display: flex;
+    gap: 2em;
+    
+}
+
+#furlogo{
+    margin-bottom: 20%;
+}
+
+.nav2{
+    list-style: none;
+    display: flex;
+    gap: 3em;
+}
+
+.mainnav{
+    display: flex;
+    gap: 15em;
+    font-family: 'Halant', serif;
+    font-size: 19px;
+    margin-top: 3%;
+
+}
+.pg1{
+    display: flex;
+    gap: 10em;
+    font-family: 'Halant', serif;
+}
+.pg1r{
+    margin-left: 3%;
+
+}
+#findouthow{
+    padding: 15px;
+    background-image: linear-gradient(to right, #fc6f83, #ff704f);
+    border-radius: 15px;
+    border-color: #ff704f;
+}
+#mainh1{
+    font-size: 78px;
+}
+#FIX{
+    color: red;
+}
+#HOME{
+    color: red;
+}
+.shoe1{
+    border: solid;
+    height: 100%;
+    width: 40%;
+}
+#shoe1{
+    transform: rotate(-40deg);
+    width: 120%;
+    height: 100%;
+}
+#shoe2{
+    transform: rotate(-40deg);
+    width: 120%;
+    height: 100%;
+}
+#shoe3{
+    transform: rotate(-40deg);
+    width: 120%;
+    height: 100%;
+    
+}
+.pg2{
+    display: flex;
+    margin-left: 5%;
+    gap: 3em;
+}
+.puma1{
+    display: flex;
+    gap: 1em;
+    border: solid;
+    width: 30%;
+    height: 30%;
+}
+.nike1{
+    display: flex;
+    gap: 1em;
+    border: solid;
+    width: 30%;
+    height: 30%;
+}
+.adidas1{
+    display: flex;
+    gap: 1em;
+    border: solid;
+    width: 30%;
+    height: 30%;
+}
+.shoe2{
+    border: solid;
+    height: 100%;
+    width: 40%;
+}
+.shoe3{
+    border: solid;
+    height: 100%;
+    width: 40%;
+}
+#adidas3{
+    width: 20%;
+    transform: rotate(-40deg);
+}
+#nike3{
+    width: 20%;
+    transform: rotate(-40deg);
+}
+#puma3{
+    transform: rotate(-40deg);
+    width: 20%;
+}
+#fila3{
+    width: 20%;
+    transform: rotate(-40deg);
+}
+.fullpage3a{
+    display: flex;
+    gap: 6em;
+}
+.ad1{
+    border: solid white;
+    background-color: white;
+}
+
+.ad2{
+    border: solid white;
+    background-color: white;
+}
+.ad3{
+    border: solid white;
+    background-color: white;
+}
+.ad4{
+    border: solid white;
+    background-color: white;
+}
+.ad5{
+    border: solid white;
+    background-color: white;
+}
+.ad6{
+    border: solid white;
+    background-color: white;
+}
+.ad7{
+    border: solid white;
+    background-color: white;
+}
+.ad8{
+    border: solid white;
+    background-color: white;
+}
+/* --------------------------------------------------------------------------------*/
+
+.trendingpg{
+    display: flex;
+}
+.shoe1trending{
+background-image: url(Img/adidastrending.jpeg);
+width: 200%;
+height: 300%;
+}
+.shoe2trending{
+    background-image: url();
+}
+.trendingpg2{
+    display: flex;
+    gap: 6em;
+}
+.footer{
+    background-color: rgb(253, 116, 116);
+    display: flex;
+    gap: 10%; 
+    margin-top: 10%;
+}
+.lorem{
+    margin-left: 5%;
+}
+.company{
+    list-style: none;
+}
+
+.contact{
+    list-style: none;
+}
+.more{
+    list-style: none;
+}
+#gplay{
+    width: 20%;
+    }
+    #appstore{
+    width: 20%;
+    }
+#logofooter{
+    background-color: black;
+}
+.icons{
+    list-style: none;
+    margin-top: 7%;
+    display: flex;
+    gap: 1em;
+}
+#adidastrending{
+    width: 50%;
+}
+.a1{
+    display: flex;
+    gap: 3em;
+}
+.a2{
+    display: flex;
+    gap: 3em;
+}
+.fullpage3b{
+    display: flex;
+    gap: 6em;
+}
+#seemore{
+    margin-left: 40%;
+    margin-top: 3%;
+    padding: 15px 25px 15px 25px;
+    border-radius: 5px;
+}
+#newarrival{
+    text-align: center;
+}
+
+.pg4{
+    display: flex;
+    gap: 3em;
+}
+
+.shoef1{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#f1{
+    width: 40%;
+    border-radius: 25px;
+}
+
+ .f1txt{
+        text-align: center;
+ }
+
+ .buttons1{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#buynow{
+    padding: 6px;
+    margin-bottom: 3%;
+    background-color: rgb(243, 23, 59);
+    border-color: rgb(243, 23, 59) ;
+    color: white;
+    border-radius: 5px;
+}
+#addtocart{
+    padding: 6px;
+    margin-bottom: 3%;
+    border-color: rgb(243, 23, 59) ;
+    border-radius: 5px;
+}
+
+.shoef2{
+    display: flex;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#f2{
+    width: 40%;
+    border-radius: 25px;
+    }
+
+ .f2txt{
+        text-align: center;
+}
+
+.buttons2{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+#buynow1{
+    padding: 6px;
+    margin-bottom: 3%;
+    background-color: rgb(243, 23, 59);
+    border-color: rgb(243, 23, 59) ;
+    color: white;
+    border-radius: 5px;
+}
+#addtocart1{
+    padding: 6px;
+    margin-bottom: 3%;
+    border-color: rgb(243, 23, 59) ;
+    border-radius: 5px;
+}
+
+.test{
+    display: flex;
+    gap: 28em;
+    margin-top: 5%;
+}
+
+.secondlast{
+    text-align: center;
+    border: solid  rgb(246, 187, 246);
+    background-color: rgb(246, 187, 246);
+    padding-bottom: 50px;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+#mail{
+padding: 10px;
+border-radius: 10px;
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 10px;
+}
+#mainshoetrending{
+    width: 30%;
+    background-color: white;
+    border-radius: 5%;
+    /* border: solid 2px black; */
+}
+#s1p3{
+    width: 15%;
+}
+#s2p3{
+    width: 10%;
+}
+#s3p3{
+    width: 15%;
+}
+.trendinggs{
+   display: flex;
+}
+
+a{
+    color: black;
+}
+.txt2p3{
+ position: relative;
+ margin-left: -90%;
+ 
+}
+.shoestrending{
+    /* border: solid 2px black; */
+    width: 45%;
+}
+#adidastrending{
+    width: 90%;
+    background-color: white;
+}
+.shoetrending{
+    background-color: white;
+}
+#minimal{
+    color: red;
+}
+.sizes{
+    display: flex;
+    gap: 3em;
+}
+#s{
+    border: solid red;
+    border-radius: 50%;
+
+}
+.sizess{
+    display: flex;
+    gap: 5px;
+}
+#buttorder{
+    padding: 10px;
+
+}
+#buttadd{
+    padding: 10px;
+
+}
