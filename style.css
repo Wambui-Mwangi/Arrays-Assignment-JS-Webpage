@@ -1,47 +1,32 @@
-body{
-    margin-left: 5%;
-    background-color: rgb(228, 228, 228);  
-}.nav1{
+.body{
+    /* margin-left: 5%; */
+   
+}
+
+.pg1{
+    background-image: url(Img/bg_720.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 10em;
+    font-family: 'Halant', serif; 
+}
+.mainnav ul{
+    padding-top: 40px;
+    display: flex;
     list-style: none;
-    display: flex;
-    gap: 2em;
-    
-}
-
-#furlogo{
-    margin-bottom: 20%;
-}
-
-.nav2{
-    list-style: none;
-    display: flex;
-    gap: 3em;
-}
-
-.mainnav{
-    display: flex;
-    gap: 15em;
+    gap: 1em;
     font-family: 'Halant', serif;
     font-size: 19px;
-    margin-top: 3%;
-    text-decoration: none;
-
-
 }
-.pg1{
+
+li:nth-child(6){
+    margin-left: 15%;
+}
+.inner{
     display: flex;
-    gap: 10em;
-    font-family: 'Halant', serif;
 }
 .pg1r{
     margin-left: 3%;
-
-}
-#findouthow{
-    padding: 15px;
-    background-image: linear-gradient(to right, #fc6f83, #ff704f);
-    border-radius: 15px;
-    border-color: #ff704f;
 }
 #mainh1{
     font-size: 78px;
@@ -49,8 +34,26 @@ body{
 #FIX{
     color: red;
 }
-#HOME{
-    color: red;
+#findouthow{
+    padding: 15px;
+    background-image: linear-gradient(to right, #fc6f83, #ff704f);
+    border-radius: 15px;
+    border-color: #ff704f;
+}
+#floatingshoe{
+    width: 70%;
+    margin-left: -5%;
+}
+.pg2{
+    display: flex;
+    margin-left: 5%;
+    gap: 3em;
+}
+.puma1{
+    display: flex;
+    gap: 1em;
+    width: 30%;
+    height: 30%;
 }
 .shoe1{
     height: 100%;
@@ -63,139 +66,32 @@ body{
    
 }
 #grad1{
- background-image: linear-gradient(to bottom, lightblue,blue);
- /* border: solid 2px; */
- border-radius: 10px;
+    background-image: linear-gradient(to bottom, lightblue,blue);
+    border-radius: 10px;
 }
 #grad2{
     background-image: linear-gradient(to bottom, lightblue,red);
     border-radius: 10px;
 }
-#grad3{
-    background-image: linear-gradient(to bottom,darkred,red);
-    border-radius: 10px;
+#bestcollection{
+    text-align: center;
 }
-.pg2{
-    display: flex;
-    margin-left: 5%;
-    gap: 3em;
-}
-.puma1{
+.featured{
+    list-style: none;
     display: flex;
     gap: 1em;
-    
-    width: 30%;
-    height: 30%;
-}
-.nike1{
-    display: flex;
-    gap: 1em;
-    width: 30%;
-    height: 30%;
-}
-.adidas1{
-    display: flex;
-    gap: 1em;
-    width: 30%;
-    height: 30%;
-    /* background-color: white; */
-    /* padding: 5px; */
-}
-.shoe2{
-    height: 100%;
-    width: 40%;
-}
-.shoe3{
-    height: 100%;
-    width: 40%;
-}
-#adidas3{
-    width: 20%;
-    transform: rotate(-40deg);
-}
-#nike3{
-    width: 20%;
-    transform: rotate(-40deg);
-}
-#puma3{
-    transform: rotate(-40deg);
-    width: 20%;
-}
-#fila3{
-    width: 20%;
-    transform: rotate(-40deg);
+    font-size: 20px;
 }
 .fullpage3a{
-    display: flex;
-    gap: 6em;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
 }
 .ad1{
     border: solid white;
     background-color: white;
 }
-
-.shoe1trending{
-    background-color: white;
-    padding: 8px;
-}
-.trendingpg2{
-    display: flex;
-    width: 10%;
-    gap: 2em;
-}
-.footer{
-    display: flex;
-    gap: 10%; 
-    margin-top: 10%;
-}
-.sec{
-    background-color: rgb(253, 116, 116);
-    padding-bottom: 2px;
-}
-#rights{
-    text-align: center;
-}
-
-.lorem{
-    margin-left: 5%;
-}
-.company{
-    list-style: none;
-}
-
-.contact{
-    list-style: none;
-}
-.more{
-    list-style: none;
-}
-#gplay{
-    width: 20%;
-    }
-    #appstore{
-    width: 20%;
-    }
-.icons{
-    list-style: none;
-    margin-top: 7%;
-    display: flex;
-    gap: 1em;
-}
-#adidastrending{
-    width: 70%;
-    rotate: -40deg;
-}
-.a1{
-    display: flex;
-    gap: 3em;
-}
-.a2{
-    display: flex;
-    gap: 3em;
-}
-.fullpage3b{
-    display: flex;
-    gap: 6em;
+#shu{
+    width: 80%;
 }
 #seemore{
     margin-left: 45%;
@@ -213,22 +109,14 @@ body{
     display: flex;
     gap: 3em;
 }
-
-.shoef1{
-    display: flex;
-    border-radius: 25px;
-}
-
 #f1{
     width: 40%;
     border-radius: 25px;
 }
-
- .f1txt{
-        text-align: center;
- }
-
- .buttons1{
+.f1txt{
+    text-align: center;
+}
+.buttons1{
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -248,7 +136,6 @@ body{
     border-color: rgb(243, 23, 59) ;
     border-radius: 5px;
 }
-
 .shoef2{
     display: flex;
     border-radius: 25px;
@@ -257,38 +144,12 @@ body{
 #f2{
     width: 40%;
     border-radius: 25px;
-    }
-
- .f2txt{
-        text-align: center;
-}
-
-.buttons2{
-    display: flex;
-    justify-content: center;
-    gap: 1em;
-}
-#buynow1{
-    padding: 6px;
-    margin-bottom: 3%;
-    background-color: rgb(243, 23, 59);
-    border-color: rgb(243, 23, 59) ;
-    color: white;
-    border-radius: 5px;
-}
-#addtocart1{
-    padding: 6px;
-    margin-bottom: 3%;
-    border-color: rgb(243, 23, 59) ;
-    border-radius: 5px;
-}
-
-.test{
+ }
+ .test{
     display: flex;
     gap: 28em;
     margin-top: 5%;
 }
-
 .secondlast{
     text-align: center;
     border: solid  rgb(246, 187, 246);
@@ -298,18 +159,113 @@ body{
     border-radius: 20px;
 }
 #mail{
-padding: 10px;
-border-radius: 10px;
+    padding: 10px;
+    border-radius: 10px;
 }
-
 #submit{
     padding: 10px;
     border-radius: 10px;
 }
-#mainshoetrending{
+.sec{
+    background-color: rgb(253, 116, 116);
+    padding-bottom: 2px;
+    margin-left: -5%;
+}
+.footer{
+    display: flex;
+    gap: 10%; 
+    margin-top: 10%;
+}
+.lorem{
+    margin-left: 5%;
+}
+.company{
+    list-style: none;
+}
+.icons{
+    list-style: none;
+    margin-top: 7%;
+    display: flex;
+    gap: 1em;
+}
+#gplay{
+    width: 20%;
+}
+#appstore{
+    width: 20%;
+}
+#rights{
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+/* ------------------------------------------------ */
+.trendinggs{
+    display: flex;
+    width: 60%;
+    height: 30%;
+ }
+ #mainshoetrending{
     width: 20%;
     background-color: white;
     border-radius: 5%;
+    margin-left: 5%;
+}
+.shoestrending{
+    width: 45%;
+    margin-left: 5%;
+}
+.txt2p3{
+    position: relative;
+    margin-left: -145%;
+    margin-top: -5%;
+}
+#minimal{
+    color: red;
+}
+.sizes{
+    display: flex;
+    gap: 3em;
+}
+.sizess{
+    display: flex;
+    gap: 5px;
+}
+#s{
+    border: solid red;
+    border-radius: 50%;
+}
+#buttorder{
+    padding: 13px;
+    border: solid 2px red;
+    color: red;
+    border-radius: 7px;
+}
+#product{
+    color: grey;
+}
+#similarproducts{
+    text-align: center;
+}
+.trendingpg2{
+    display: flex;
+    width: 10%;
+    gap: 2em;
+    margin-left: 5%;
+}
+.shoe1trending{
+    background-color: white;
+    padding: 8px;
+}
+#adidastrending{
+    width: 70%;
+    rotate: -40deg;
+}
+.a1{
+    display: flex;
+    gap: 3em;
 }
 #s1p3{
     width: 15%;
@@ -320,64 +276,89 @@ border-radius: 10px;
 #s3p3{
     width: 15%;
 }
-.trendinggs{
-   display: flex;
-   width: 60%;
-   height: 30%;
-}
-a{
-    color: black;
-    text-decoration: none;
-}
-.txt2p3{
- position: relative;
- margin-left: -145%;
- margin-top: -5%;
- 
-}
-.shoestrending{
-    width: 45%;
+/* ------------------------------------------------------- */
+#about{
+    text-align: center;
 }
 
-.shoetrending{
-    background-color: white;
+#shoesabout{
+    width: 400px;
+    height: 350px;
+    border-radius: 5%;
+    margin-left: 5%;
 }
-#minimal{
-    color: red;
-}
-.sizes{
+.about1{
     display: flex;
-    gap: 3em;
+    gap: 2em;
+    margin-left: 5%;
 }
-#s{
-    border: solid red;
-    border-radius: 50%;
+#buttonabout{
+    padding: 8px 25px;
+    border-radius: 5px;
 }
-.sizess{
-    display: flex;
-    gap: 5px;
-}
-#buttorder{
-    padding: 13px;
-    border: solid 2px red;
-    color: red;
-    border-radius: 7px;
+/* -------------------------------------------------------------------- */
 
-}
-#product{
-    color: grey;
-}
-
-@media (max-width: 375px){
+@media (max-width: 760px){
    body{
     font-size: 10px;
    } 
-   .trendingpg2{
+   .mainnav ul{
+    font-family: 'Halant', serif;
+    font-size: 9px;
+}
+.pg1r{
+    size: 10px;
+}
+.pg1{
+    background-image: url(Img/bg_720.png);
+    background-size: cover;
+    gap: 5em;
+    font-family: 'Halant', serif; 
+}
+.pg2{
+    gap: -5em;
+}
+#f1{
+    width: 30%;
+    height: 10%;
+}
+#f2{
+    width: 20%;
+    height:20%;
+    border-radius: 25px;
+ }
+.shoef1{
+    size: 20%;
+}
+.f1txt{
+    size: 20%;
+}
+
+.trendingpg2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    }
 .shoe1{
     flex-direction: column;
     display: grid;
+}
+.nav1{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
+    
+}
+.mainnav{
+    display: flex;
+    gap: 5em;
+    font-family: 'Halant', serif;
+    font-size: 9px;
+    margin-top: 3%;
+    text-decoration: none;
+}
+.nav2{
+    list-style: none;
+    display: flex;
+    gap: 0.5em;
 }
 }
