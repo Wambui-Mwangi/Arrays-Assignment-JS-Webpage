@@ -298,6 +298,20 @@ a{
     padding: 8px 25px;
     border-radius: 5px;
 }
+
+/* ------------------------------------------------------------------------------ */
+.pich1{
+    margin-left: 30%;
+}
+.lil{
+    padding: 10px;
+    border-radius: 8px;
+}
+.lil1{
+    padding-bottom: 80px;
+    padding-left: 22px;
+    border-radius: 8px;
+}
 /* -------------------------------------------------------------------- */
 
 @media (max-width: 760px){
